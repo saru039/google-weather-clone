@@ -13,7 +13,6 @@ const Input = ({input,setInput,findWeather}) => {
         <div className="input-box-field">
             <h1>Google Weather App</h1>
             <p>Powered By</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" alt="google" />
             <form action="" onSubmit={functionCall}>
                 <TextField id="standard-basic" label="Enter the city name" variant="standard" onChange={(e)=>setInput(e.target.value)} />
                 <Button variant="contained" type='submit'>Search</Button>
